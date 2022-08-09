@@ -22,6 +22,8 @@ class CountryResource extends Resource
 {
     protected static ?string $model = Country::class;
 
+    protected static ?string $recordTitleAttribute = 'country_code';
+
     protected static ?string $navigationIcon = 'heroicon-o-flag';
 
     protected static ?string $navigationGroup = 'System Management';
