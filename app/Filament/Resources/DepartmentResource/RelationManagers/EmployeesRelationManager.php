@@ -68,7 +68,7 @@ class EmployeesRelationManager extends RelationManager
                     TextInput::make('zip_code')->required()->maxLength(5),
                     DatePicker::make('birth_date')->required(),
                     DatePicker::make('date_hired')->required(),
-                ])
+                ])->columns(2)
             ]);
     }
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bad98fec408d2ef35130342e3df8a9be",
+    "content-hash": "89768c274a3e2859f2a6aec17d198058",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -1485,6 +1485,63 @@
                 }
             ],
             "time": "2022-06-20T21:43:11+00:00"
+        },
+        {
+            "name": "heloufir/filament-leaflet-geosearch",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heloufir/filament-leaflet-geosearch.git",
+                "reference": "dc5f291213eac5797e9d54594798345b90ecc284"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heloufir/filament-leaflet-geosearch/zipball/dc5f291213eac5797e9d54594798345b90ecc284",
+                "reference": "dc5f291213eac5797e9d54594798345b90ecc284",
+                "shasum": ""
+            },
+            "require": {
+                "filament/forms": "^2.0",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.9"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Heloufir\\FilamentLeafLetGeoSearch\\FilamentLeafLetGeoSearchProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Heloufir\\FilamentLeafLetGeoSearch\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "EL OUFIR Hatim",
+                    "email": "eloufirhatim@gmail.com"
+                }
+            ],
+            "description": "Implementation of LeafLet GeoSearch as a Filament Form Field",
+            "homepage": "https://github.com/heloufir/filament-leaflet-geosearch",
+            "keywords": [
+                "field",
+                "filament",
+                "form",
+                "geosearch",
+                "leaflet"
+            ],
+            "support": {
+                "issues": "https://github.com/heloufir/filament-leaflet-geosearch/issues",
+                "source": "https://github.com/heloufir/filament-leaflet-geosearch/tree/1.0.7"
+            },
+            "time": "2022-07-21T20:55:19+00:00"
         },
         {
             "name": "laravel/framework",
